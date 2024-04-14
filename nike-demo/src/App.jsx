@@ -22,7 +22,7 @@ const App = () => {
         <main className="relative">
             <Nav sidebar={() => toggleSidebar(!sideBarVisible)} />
             <Sidebar visible={sideBarVisible}/>
-            <section className="x1:padding-1 wide:padding-r padding-b">
+            <section className="xl:padding-l wide:padding-r padding-b">
                 <Hero />
             </section>
             <section className="padding">
