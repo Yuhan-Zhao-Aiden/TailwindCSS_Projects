@@ -15,7 +15,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
                         ? "border-coral-red"
                         : "border-transparent"
                 } 
-                cursor-pointer max-sm:flex-1 
+                cursor-pointer max-sm:flex-1
             `}
             onClick={handleClick}
         >
